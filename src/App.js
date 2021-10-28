@@ -15,7 +15,6 @@ function App() {
   const getRandomValue = () => {
     getRandomKey();
     key = KEY[temp];
-    console.log(KEY[temp]);
     for(let i in WORD_LIST[0][key]){
       arr.push(i);
     }
@@ -31,11 +30,8 @@ function App() {
     getValue();
     data = WORD_LIST[0][key][x];
     x = x.toUpperCase(); 
-    console.log(data) 
     eg = data['meaning_1'];
     eg.charAt(0).toUpperCase();  
-    console.log("this-",eg);
-    console.log("ottis",data['meaning_1']);
     
   }
   getData();

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Vocab Builder",
+  "author": "Abhishek Bhamare",
+  "version": "1.0.1",
+  "description": "Learn new word when you open new tab",
+  "icons": {
+    "16": "ab16.ico",
+    "48": "ab48.ico",
+    "144": "ab144.ico",
+    "310": "ab310.ico"
+  },
+  "chrome_url_overrides":{
+    "newtab": "index.html"
+  }
+
+}

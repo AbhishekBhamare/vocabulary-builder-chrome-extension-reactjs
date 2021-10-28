@@ -1,0 +1,54 @@
+body{
+  font-family: Arial, sans-serif;
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(255,255,255,0.7);
+  transform: translate(-50%, -50%);
+  width: 30%;
+  padding: 3rem;
+  z-index: 10;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 3rem;
+  color: #111;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #06D85F;
+  /* margin: 80px 0; */
+}
+p{
+  font-weight: bold;
+  color: #C71585;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn button{
+  background-color: #7FFFD4;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.6rem;
+}
+
+.btn button:hover{
+  background-color: #00FA9A;
+}
